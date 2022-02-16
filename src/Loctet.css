@@ -1,0 +1,41 @@
+*, ::before, ::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .bodys{
+    min-height: 100vh;
+    background-image: url("https://hailocthanh.com/wp-content/themes/octopus-theme/assets/images/header-bg.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img{
+    width: 90vw;
+  }
+
+  .loading{
+    min-height: 100vh;
+    background-image: url("https://hailocthanh.com/wp-content/themes/octopus-theme/assets/images/header-bg.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .spin{
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 15px solid white;
+    border-top-color: rgb(229, 255, 0);
+    animation: loading 1s linear infinite;
+  }
+
+  @keyframes loading {
+    to{
+      transform: rotate(1turn);
+    }
+  }
